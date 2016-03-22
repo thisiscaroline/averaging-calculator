@@ -20,7 +20,7 @@ int main(int argc, char** argv){
 		count++;
 		
 		free(s);
-		printf("Enter next digit, or q to quit: \n");
+		printf("\nEnter next digit, or q to quit: ");
 		scanf("%s", s);
 		
 	} while ((strcmp(s, "q")) != 0);
