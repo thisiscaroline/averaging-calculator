@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <ctype.h>
 
-int main(int argc, char** argv){
+int main(void){
 
 	char* s = (char*)malloc(sizeof(int));
 	int count = 0, sum = 0, grade = 0;
