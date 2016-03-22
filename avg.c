@@ -25,7 +25,6 @@ int main(int argc, char** argv){
 		
 	} while ((strcmp(s, "q")) != 0);
 	
-	//printf("\nSum: %d\tCount: %d", sum, count);
 	total = sum/(float)count;
 	printf("\n\nTotal: %0.3f\n\n", total);
 	
